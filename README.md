@@ -1,0 +1,2 @@
+# komasakto
+Inventaris Barang Komasakto
