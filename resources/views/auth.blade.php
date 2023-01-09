@@ -17,6 +17,7 @@
                 <div class="card-wrapper">
                     <div class="brand">
                         <img src="{{ ('img/logo2.jpeg') }}" alt="logo" class="rounded-circle" width="300px">
+                        <hr>
                     </div>
                     <div class="card fat">
                         <div class="card-body">

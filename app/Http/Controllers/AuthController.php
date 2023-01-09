@@ -15,11 +15,6 @@ class AuthController extends Controller
 
     public function login(Request $resuest){
 
-        $resuest->validate([
-
-            'username' => 'required',
-            ''
-        ])
     }
 
 
