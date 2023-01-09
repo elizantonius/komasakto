@@ -11,4 +11,17 @@ class AuthController extends Controller
         $data['judul'] = 'Inventory Komaskto';
         return view('Auth', $data);
     }
+
+
+    public function login(Request $resuest){
+
+        $resuest->validate([
+
+            'username' => 'required',
+            ''
+        ])
+    }
+
+
+
 }
