@@ -8,6 +8,7 @@ class MyController extends Controller
 {
     public function index(){
 
+        // $data = 'Dashboard Komasakto';
         return view('my');
     }
 }
