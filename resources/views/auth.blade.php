@@ -22,7 +22,7 @@
                     <div class="card fat">
                         <div class="card-body">
                             <h4 class="card-title">Login</h4>
-                            <form method="POST" action="Auth/login" class="my-login-validation" novalidate="">
+                            <form method="POST" action="/auth/login" class="my-login-validation" novalidate="">
                                 @csrf
                                 <div class="form-group">
                                     <label for="username">Username</label>

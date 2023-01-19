@@ -35,3 +35,12 @@ Route::get('/baranginp', function () {
 Route::get('/barangout', function () {
     return view('barangkeluar');
 });
+Route::post('/auth/login', function () {
+    return view('My');
+});
+Route::get('/auth/logout', function () {
+    return view('Auth');
+});
+Route::get('/TabelBarang', function () {
+    return view('tabelbarang');
+});
