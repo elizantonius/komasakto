@@ -32,3 +32,6 @@ Route::get('/my', function () {
 Route::get('/baranginp', function () {
     return view('barangmasuk');
 });
+Route::get('/barangout', function () {
+    return view('barangkeluar');
+});

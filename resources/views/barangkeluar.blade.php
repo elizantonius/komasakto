@@ -1,6 +1,6 @@
 @extends('template')
 @section('content')
-    <h1 class="h3 mb-4 text-gray-800">Barang masuk!</h1>
+    <h1 class="h3 mb-4 text-gray-800">Barang keluar!</h1>
 
     <div class="card">
         <div class="card-body">
@@ -22,7 +22,7 @@
                     <input type="text" class="form-control" placeholder="Jumlah Barang">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Tanggal barang masuk</label>
+                    <label for="exampleInputPassword1">Tanggal barang keluar</label>
                     <input type="date" class="form-control" name="tanggal" aria-describedby="emailHelp" required>
                 </div>
 
