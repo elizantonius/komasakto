@@ -7,7 +7,7 @@
             <form>
                 <div class="form-group">
                     
-                    <input type="hidden" class="form-control" placeholder="Id Transaksi">
+                    <input type="text" class="form-control"  placeholder="id User">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Id Transaksi</label>

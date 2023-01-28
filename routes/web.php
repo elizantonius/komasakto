@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\MyController;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,9 +40,19 @@ Route::get('/barangout', function () {
 Route::post('/auth/login', function () {
     return view('My');
 });
+
 Route::get('/auth/logout', function () {
     return view('Auth');
 });
+
+// Route::get('my', [MyController::class, 'show']);
+
 Route::get('/TabelBarang', function () {
     return view('tabelbarang');
+});
+Route::get('/satuan', function () {
+    return view('inputsatuan');
+});
+Route::post('/satuan/tambahdata', function () {
+    return view('inputsatuan');
 });
